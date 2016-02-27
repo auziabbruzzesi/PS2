@@ -30,5 +30,20 @@ public class MyInteger_Test {
 	public void test() {
 		assertTrue(1==1);
 	}
-
+	@Test
+	public void MyIntegertest(){
+		assertTrue("is even",MyInteger.isEven(4));
+		assertFalse("is even",MyInteger.isEven(5));
+		assertTrue("is odd",MyInteger.isOdd(777));
+		assertFalse("is odd",MyInteger.isOdd(778));
+		assertTrue("is prime",MyInteger.isPrime(5));
+	}
+	
+		
+		
+		
+	
+		
 }
+
+

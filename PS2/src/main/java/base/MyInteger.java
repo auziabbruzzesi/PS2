@@ -80,18 +80,7 @@ public class MyInteger {
 		return (this.getiValue() == new MyInteger(value).getiValue());
 		
 	}
-/*public static void main(String[] args){
-	MyInteger value = new MyInteger(7);
-	System.out.print(value.isPrime());
-	MyInteger value1 = new MyInteger(8);
-	System.out.print(value1.isPrime());
-	MyInteger value2 = new MyInteger(21);
-	System.out.print(value2.isPrime());
-	MyInteger value3 = new MyInteger(23);
-	System.out.print(value3.isPrime());
 
-	
-}*/
 }
 
 
